@@ -124,6 +124,7 @@ I then recorded the vehicle recovering from the left side and right sides of the
 Then I repeated this process on track two in order to get more data points.
 
 To augment the data sat, I also flipped images and angles thinking that this would double my training data, I also used the Udacity data.
+The code for the augmentation for greatly influenced by the work of https://github.com/ksakmann/CarND-BehavioralCloning
 
 I then preprocessed this data by by adding random brightness and some warping.
 
